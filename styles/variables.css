@@ -8,7 +8,7 @@
     --accent-font: 'PressStart2P';
     --normal-font-weight: 465;
     --bold-font-weight: 785;
-    --content-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);;
+    --content-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
     --fill-contour-color: #00cc14;
     --fill-core-color: #FFFFFF;
 }
