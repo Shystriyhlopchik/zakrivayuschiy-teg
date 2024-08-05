@@ -5,6 +5,7 @@
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
 
+
 @media (prefers-color-scheme: light) {
     :root {
         --bg-color: #FFFFFF;
@@ -14,6 +15,10 @@
         --normal-font-weight: 400;
         --bold-font-weight: 700;
         --fill-contour-color: #000000;
+        --gradient-bg: repeating-linear-gradient(0deg, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+        repeating-linear-gradient(90deg, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+        linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+        --btn-text-color: #FFFFFF;
     }
 }
 
@@ -25,6 +30,10 @@
     --normal-font-weight: 400;
     --bold-font-weight: 700;
     --fill-contour-color: #000000;
+    --gradient-bg: repeating-linear-gradient(0deg, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+    repeating-linear-gradient(90deg, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+    linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+    --btn-text-color: #FFFFFF;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -36,6 +45,10 @@
         --normal-font-weight: 465;
         --bold-font-weight: 785;
         --fill-contour-color: #00cc14;
+        --gradient-bg: repeating-linear-gradient(0deg, #000, #000 2px, transparent 2px, transparent 4px),
+        repeating-linear-gradient(90deg, #000, #000 2px, transparent 2px, transparent 4px),
+        linear-gradient(#007f0c, #004306);
+        --btn-text-color: #00cc14;
     }
 }
 
@@ -47,4 +60,8 @@
     --normal-font-weight: 465;
     --bold-font-weight: 785;
     --fill-contour-color: #00cc14;
+    --gradient-bg: repeating-linear-gradient(0deg, #000, #000 2px, transparent 2px, transparent 4px),
+    repeating-linear-gradient(90deg, #000, #000 2px, transparent 2px, transparent 4px),
+    linear-gradient(#007f0c, #004306);
+    --btn-text-color: #00cc14;
 }
